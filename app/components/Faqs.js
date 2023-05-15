@@ -48,12 +48,12 @@ const Faqs = () => {
                 className="px-5 py-2 mb-2 rounded-md shadow-sm bg-indigo-50"
               >
                 <AccordionHeader
-                  className="text-[1.2rem] font-bold border-none"
+                  className="text-[1.2rem] font-bold border-none py-2"
                   onClick={() => handleOpen(singleFaq.id)}
                 >
                   {singleFaq.question}
                 </AccordionHeader>
-                <AccordionBody className="leading-[26px]">
+                <AccordionBody className="leading-[26px] pb-2">
                   {singleFaq.answer}
                 </AccordionBody>
               </Accordion>

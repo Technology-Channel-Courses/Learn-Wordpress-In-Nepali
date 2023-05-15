@@ -1,10 +1,3 @@
-import Swisston from "../public/images/projects/Swisston.png";
-import Abeli from "../public/images/projects/Abeli.png";
-import RodhiDigital from "../public/images/projects/RodhiDigital.png";
-import CouncilHouse from "../public/images/projects/CouncilHouse.png";
-import DipGurung from "../public/images/projects/DipGurung.png";
-import AnandGurung from "../public/images/projects/AnandGurung.png";
-
 import Ecommerce from "../public/images/projects/Ecommerce.png";
 import Travel from "../public/images/projects/Travel.png";
 import News from "../public/images/projects/News.png";
@@ -14,32 +7,33 @@ export const allProjects = [
   {
     name: "Ecommerce Website",
     description:
-      "Aebli & Partner are a creative, interdisciplinary team. Like to think outside the box and develop on unconventional way of controversial ideas that have what it takes to succeed.",
+      "An e-commerce website to help small to large business boost their business in selling.",
     image: Ecommerce,
-    allPoints: ["Intense workshop", "ABC", "DEF"],
+    link: "",
+    allPoints: ["Highlight1", "Highlight2", "Highlight3"],
   },
   {
     name: "Travel Website",
     description:
-      "रोधी डिजिटल गुरुङ र मगर जातीय समूहको संस्कृतिमा आधारित भिडियोहरू बनाउने पूर्ण फिल्म प्रोडक्शन हाउस हो । हामी दुबै गुरुङ वा नेपाली भाषामा भिडियो, गीतहरू, चलचित्रहरू, वृत्तचित्रहरू, भिडियो ब्लगि, घटनाहरू आदि बनाउँछौं। करीव २५ बर्ष अघि पहिलो गुरुङ फिल्म पाते(माहिली) बाट सुरु गर्दै हामीले अहिलेसम्म १८ गुरुङ र नेपाली चलचित्र बनाइसकेका छौं र धेरै कलाकारहरू जन्मोउने को गर्व गर्दछ",
-    link: "https://www.rodhidigital.com/",
+      "A travel website to help travel agency boost their business in the travel field.",
+    link: "",
     image: Travel,
-    allPoints: ["Intense workshop", "ABC", "DEF"],
+    allPoints: ["Highlight1", "Highlight2", "Highlight3"],
   },
   {
     name: "News Website",
     description:
-      "नेपाल तमु (गुरुङ) विद्यार्थी छोंज धीं सम्पूर्ण गुरुङ विद्यार्थीहरुको छाता संगठन हो र तमु ह्युल छोंज धीं गुरुङ राष्ट्रिय परिषदको एक भातृ विद्यार्थी संगठन हो, जुन वि.स. २०५२ सालमा स्थापना भएको थियो। यस संस्थाको मुख्य उद्देश्य गुरुङहरु को अधिकार र पहिचानको वकालत गर्नु हो|",
-    link: "https://tamustudents.org/",
+      "A complete news website to help get started any news agency in the digital field.",
+    link: "",
     image: News,
-    allPoints: ["Intense workshop", "ABC", "DEF"],
+    allPoints: ["Highlight1", "Highlight2", "Highlight3"],
   },
   {
     name: "Portfolio Website",
     description:
-      "Dip Gurung is renowned for directing and choreographing captivating cultural music videos and Gurung films. His visionary approach blends tradition and contemporary elements, crafting visually stunning narratives that evoke powerful emotions.",
-    link: "https://gurungdip.com/",
+      "A portfolio website to showcase your skills, and projects and help you get more clients and job.",
+    link: "",
     image: Portfolio,
-    allPoints: ["Intense workshop", "ABC", "DEF"],
+    allPoints: ["Highlight1", "Highlight2", "Highlight3"],
   },
 ];
